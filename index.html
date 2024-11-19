@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Exploration Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Concert+One&family=Exo:ital,wght@0,100..900;1,100..900&family=Neucha&family=Nova+Mono&family=Raleway+Dots&family=Rock+Salt&family=Shadows+Into+Light&family=Syncopate:wght@400;700&family=Wire+One&family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+  
+  
+</head>
+
+<body>
+  <header>
+    <h1>💿 Music Exploration</h1>
+    <button id="loginButton">Login with Spotify</button>  
+</header>
+<header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#profile" class="nav-link">My Profile</a></li>
+      <li><a href="#leaderboard" class="nav-link">Leaderboard</a></li>
+      <li><a href="#forum" class="nav-link">Forum</a></li>
+      <li><a href="#visualizer" class="nav-link">Visualizer</a></li>
+      <li><a href="index.html" class="nav-link">Music Exploration</a></li>
+    </ul>
+  </nav>
+</header>
+  <main>
+    <section id="recommendations">
+      <div class="info-container">
+        <h3 class="info">Discover personalized music recommendations based on your <b class="Spotify">Spotify</b> listening habits. The Music Exploration Page
+          offers fresh suggestions for songs, albums, and artists tailored to your tastes, with an engaging design that
+          updates regularly to keep you exploring new music!
+        </h3>
+      </div>
+      <div class="image-container">
+          <img class="album-cover" src="photos/pic4.jpg" alt="Album 1">
+          <img class="album-cover" src="photos/pic1.webp" alt="Album 3">
+          <img class="album-cover" src="photos/pic5.png" alt="Album 3">
+          <img class="album-cover" src="photos/pic6.jpg" alt="Album 3">
+          <img class="album-cover" src="photos/pic2.png" alt="Album 2">
+          <img class="album-cover" src="photos/pic3.webp" alt="Album 3">
+          <img class="album-cover" src="photos/pic7.jpg" alt="Album 3">
+
+      </div>
+    </section>
+    <section>
+      <h1 class="recommendations">Your Recommendations</h1>
+      <div id="recommendationCards" class="recommendation-container">
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
